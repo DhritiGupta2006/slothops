@@ -1,0 +1,64 @@
+{
+  "model": "gemma3:4b",
+  "classification": "Finance",
+  "classification_reason": "The document is an invoice detailing a financial transaction (design services) and payment terms.",
+  "chunks": 2,
+  "input_chars": 6656,
+  "elapsed_seconds": 237.5,
+  "action_count": 5,
+  "cached": false,
+  "result": {
+    "actions": [
+      {
+        "due": "Friday",
+        "evidence": "I will test the Windows launcher by Friday. I'll report the result in the project notes.",
+        "owner": "Arun",
+        "section": 1,
+        "task": "Arun will test the Windows launcher"
+      },
+      {
+        "due": "29 October 2026",
+        "evidence": "I'll draft the README by 29 October 2026.",
+        "owner": "Maya",
+        "section": 1,
+        "task": "Maya will draft the README"
+      },
+      {
+        "due": null,
+        "evidence": "We should use recoverable quarantine for duplicates.",
+        "owner": "Sam",
+        "section": 1,
+        "task": "Sam will use recoverable quarantine for duplicates"
+      },
+      {
+        "due": null,
+        "evidence": "The dashboard must label time savings as estimates. We haven't measured anyone's actual time saved.",
+        "owner": "Arun",
+        "section": 1,
+        "task": "Dashboard will label time savings as estimates"
+      },
+      {
+        "due": "30 October 2026",
+        "evidence": "Leena: I will write the release checklist by 30 October 2026.",
+        "owner": "Leena",
+        "section": 2,
+        "task": "Write the release checklist"
+      }
+    ],
+    "decisions": [
+      "First release will be local.",
+      "No document text goes to a hosted AI service."
+    ],
+    "overview": "The project involves the initial launch of a local application. A key element is the requirement for approval before file changes are made. Planning is underway, with Maya scheduled to draft a README by October 29th, and Arun tasked with testing the Windows launcher, reporting findings in project notes. Sam will address duplicate files using a quarantine process, preventing permanent removal. The team is documenting the process, including a release checklist created by Leena.  Data regarding time savings is being presented as estimates due to the absence of measured data. The project appears to be in an iterative phase, with ongoing contextual statements.",
+    "sections": [
+      {
+        "section": 1,
+        "summary": "The team is planning the initial launch of the app, which runs locally and requires approval for file changes. Maya will draft the README by October 29th, and Arun will test the Windows launcher by Friday, reporting results in the project notes. Sam will use recoverable quarantine for duplicates, avoiding permanent deletion. The dashboard will label time savings as estimates due to the lack of measured data."
+      },
+      {
+        "section": 2,
+        "summary": "This excerpt details a discussion regarding the local app development process, emphasizing the need for file change approval. Leena has committed to creating a release checklist. The document highlights the iterative nature of the project with repeated contextual statements."
+      }
+    ]
+  }
+}
