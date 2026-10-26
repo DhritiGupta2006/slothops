@@ -123,6 +123,6 @@ Generate another fresh sample folder:
 
 ## Hacktoberfest and publication
 
-The idea was inspired by the **Week 3 “Slow and Steady”** theme. The stated Week 3 deadline was **October 25, 2026**, and this build is dated **October 26, 2026**. This repository and its article draft **do not claim Week 3 eligibility or submission**. Any later event needs a separate check of its actual rules. The DEV article remains a local draft; no DEV post or challenge entry has been published or submitted.
+The idea was inspired by the **Week 3 “Slow and Steady”** theme. The stated Week 3 deadline was **October 25, 2026**, and this build is dated **October 26, 2026**. This repository and its article draft **do not claim Week 3 eligibility or submission**. Any later event needs a separate check of its actual rules. The DEV article is provided as a draft; no DEV post or challenge entry has been published or submitted.
 
 MIT licensed. Contributions welcome: stronger race-resistant file handling, a verified OCR workflow, and user-measured effort baselines are useful next steps.
